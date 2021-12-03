@@ -1,11 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import time from "./IMG/time.png";
-// import Calendar from "./componets/Calendar/Calendar";
-function App() {
-  return (
-    <>
-      <div className="event-container">
+import React from "react";
+import time from "./IMG/time.png"
+import "style.css"
+
+function Calendar ()
+{
+    return(
+          <>
+          <div className="event-container">
         <h3 className="year">2021</h3>
         {/* event */}
         <div className="event">
@@ -129,8 +130,8 @@ function App() {
           </div>
         </div>
       </div>
-    </>
-  );
+ 
+          </>  
+    );
 }
-
-export default App;
+export default Calendar;
